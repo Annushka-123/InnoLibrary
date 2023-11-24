@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ 
+    <link rel="stylesheet" href="main.css"> 
+ 
+    <title>Inn0_Library</title> 
+    <script>
+        function showInf(){
+            let ul=document.querySelector(".up");
+            if(ul.hasAttribute("hidden")){
+                ul.removeAttribute("hidden");
+            }else{
+                ul.setAttribute("hidden","");
+            }
+        }
+        </script>
+</head> 
+ 
+<header style="border-radius: 10px;"> 
+    <button style="height: 70px; width: 210px; font-size: 25px; border-radius: 10px; color: rgb(69, 74, 88); background-color:powderblue;border-style: double; border-width: 3px; border: none; margin-left: 84.5%; margin-top: 2%;" onclick="window.location.href = 'http://127.0.0.1:5501/index.html';"> 
+        Внести изменения 
+    </button> 
+    <p style="text-align: center; margin-top: -1.7%; margin-right: 3%; font-family: Georgia;">InnoLibrary</p> 
+    <div class="icon"> 
+    <img src="image 1.png"> 
+    <a href="https://innolyceum.pro/" style = "font-size:35px; text-decoration: none; color: rgb(1, 1, 101); font-family: cursive;">Лицей Иннополис</a> 
+</div> 
+</header> 
+ 
+<body style="background-color: azure;"> 
+    <p></p> 
+
+            <p style="text-align: center; font-family: Arial Narrow Bold;">Книги в наличии </p> 
+    <p style="text-align: center; font-family: justify-self; font-size: 45px;">Авторы</p> 
+
+
+<p></p>
+
+<div class="body">
+    <p onclick ="showInf()" style="font-size: 40px; font-family: Courier New; text-align: center; margin: auto; margin-right: 44.9%;">Пушкин Александр Сергеевич</p>
+    <ul class="up" onclick="wind()" hidden>
+        <li>
+            <a href="#" target="_blank" style="font-size: 25px;">Капитанская дочка n/5</a>
+        </li>
+        <li>
+            <a href="#" target="_blank"style="font-size: 25px;">Дубровский n/5</a>
+        <li>
+            <a href="#" target="_blank"style="font-size: 25px;">Песнь о вещем Олеге n/5</a>
+        </li>
+        <li>
+            <a href="#" target="_blank"style="font-size: 25px;">Евгений Онегин n/5</a>
+        </li>
+        <li>
+            <a href="#" target="_blank"style="font-size: 25px;">Сказка о рыбаке и рыбке n/5</a>
+        </li>        
+        <li>
+            <a href="#" target="_blank"style="font-size: 25px;">Зимний вечер n/5</a>
+        </li>
+    </ul>
+</div>
+
+
+    </body>
+ 
+</html>

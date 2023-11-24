@@ -1,0 +1,29 @@
+body{ 
+    background-color: rgb(128, 199, 194); 
+ text-align: left; 
+    font-size: 50px; 
+  
+    font-family: 'Franklin Gothic Medium'; 
+ line-height: 6px; 
+  
+  
+ } 
+ header { 
+    background-color:powderblue ; 
+    height: 160px; 
+     
+ } 
+ .icon { 
+    margin-top:-5%; margin-bottom: 4%; margin-left: 1%; 
+    vertical-align: middle; 
+ } 
+ .body {
+    text-align: left;
+    margin-left: 30%;
+}
+a {
+    
+    text-decoration: none;
+    color: black;
+    line-height: 2;
+}
