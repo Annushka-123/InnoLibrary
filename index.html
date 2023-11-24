@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password</title>
+    <link rel="stylesheet" href="main.css"> 
+    <script>
+        function checkPassword() {
+            var password = document.getElementById("passwordBox")
+            var passwordText = password.value;
+            if (passwordText == "obd") {
+                return true;
+            }
+            alert("Пароль неверный");
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <p style="font-size: 15pt; margin-top: 16%;">Пароль:</p>
+    <input style="font-size: 20pt; color: rgb(135, 215, 255); border: 3px; border-radius: 13px;" id="passwordBox" type="password"/>
+    <a style="color: Azure; font-size: 17pt;" href="https://vk.com/feed" onclick="return checkPassword();">
+        <p> </p>
+        Жми здесь чтобы отправить пароль и посмотреть сайт
+    </a>
+</body>
+</html>
